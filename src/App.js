@@ -1,12 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-import Github from './Components/useeffect-03/Github';
+import Photosearch from './Components/Photo-search/Photosearch';
+import Quiz from './Components/Quiz/Quiz'
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" style={{width:"100%"}}>
       {/* <Movieapp /> */}
-        <Github />
+       {/* <Photosearch /> */}
+       <Quiz />
        {/* <Movieapp />  */}
        
     </div>
