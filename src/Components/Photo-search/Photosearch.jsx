@@ -1,6 +1,17 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 
 const Photosearch = () => {
+
+  const[inputdata,Setinput] = useState('flower');
+
+  useEffect(() => {
+    photogallery();
+  }, [])
+
+  async function photogallery() {
+    const res = await fetch('')
+  }
+  
   return (
     <div className='container'>
       <div className='row'>
@@ -14,12 +25,18 @@ const Photosearch = () => {
         </div>
         <div className="col-lg-4 p-2">
           <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" 
+            onChange={(e)=>{
+              Setinput(e.target.value);
+            }}/>
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
           </form>
         </div>
         <div className='my-masonry-grid'>
           <div className="my-masonry-grid_column">
+            {
+
+            }
             <div className="col">
             <div class="bg-dark text-white mb-4 card" style={{cursor: "pointer"}}>
               <img class="card-img" src="https://images.unsplash.com/photo-1682685797898-6d7587974771?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wzMzYyNjV8MXwxfGFsbHwxfHx8fHx8Mnx8MTY5Mjg2NDc4Nnw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=200" alt="Card image" />

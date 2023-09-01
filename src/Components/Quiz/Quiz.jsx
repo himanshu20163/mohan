@@ -122,3 +122,4 @@ const Options = ({ options, onSelect, showCorrect }) => (
 );
 
 export default Quiz;
+
