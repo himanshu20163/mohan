@@ -28,13 +28,7 @@ const Menu = () => {
                                         <Link to="/products" class="nav-link active" aria-current="page" href="#">products</Link>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">Services</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Blog</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Contact</a>
+                                       <Link to="/contact" class="nav-link active" aria-current="page" href="#">contact us</Link>
                                     </li>
                                 </ul>
                                 <form class="d-flex">
