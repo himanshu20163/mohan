@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.navmenu{
+    width:100%;
+    height: auto;
+    background-color: black;
+    display: flex;
+}
+.logo{
+  width: 20%;  
+}
+.menu-bar{
+    width: 60%;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+.menu-bar ul{
+    width: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+.menu-bar ul li{
+    width: 10%;
+    display: flex; 
+    align-items: center;
+    font-size: 18px;
+    font-weight: 700;
+    
+}
+.menu-bar ul li a{
+    color: #fff;
+}
+.enquiry-btn{
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.enquiry-btn span{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+}
+.enquiry-btn button{
+    width: 45%;
+    height: 50px;
+    border-radius: 50px;
+    background-color: transparent;
+    color: #fff;
+    border-style: none;
+    border:1px solid #b1b1b1;
+}
